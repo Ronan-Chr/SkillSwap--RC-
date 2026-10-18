@@ -23,4 +23,5 @@ The main difference in the experience compared to standard tutoring experiences 
 - CSS
 - JS
 - VScode (IDE)
+- Git
 
