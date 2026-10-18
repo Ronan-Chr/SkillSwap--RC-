@@ -16,4 +16,11 @@ The main difference in the experience compared to standard tutoring experiences 
 - Searching will be comprehensive and easy for users to make meaningful searchs quickly
 
 # Design Chart for DB (Eventual)
-![Platform Design Chart](assets\Design-Chart.png)
+![Platform Design Chart](assets/Design-Chart.png)
+
+# Technologies 
+- HTML
+- CSS
+- JS
+- VScode (IDE)
+
