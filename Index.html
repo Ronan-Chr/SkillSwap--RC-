@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Size scaling and initialization (Stackoverflow) -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,39 @@
     <link rel="stylesheet" href="CSS\style.css">
 </head>
 <body>
-    <script src="JS\script.js"></script>
+<!-- Header class -->
+    <header class="site-header">
+        <a href="#" class="logo">Skill Swap</a>
+<!-- Site Navigation -->
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="label">Centenary University · Tutoring board</p>
+            <h1>Know something? Trade it.</h1>
+            <p>Need help with a skill? Find someone to trade with. Skill Swap makes it easy to connect with others and exchange knowledge whether it's late at night or early in the morning.</p>
+        </section>
+
+
+        <section class="skills" id="skills">
+            <h2 class="label">Posted this week</h2>
+            <p>Skill offerings coming soon.</p>
+        </section>
+    </main>
+
+<!-- Classic footer with my credit -->
+    <footer class="site-footer">
+        <p>&copy;Skill Swap · Built by Ronan Christie</p>
+    </footer>
+
+<!-- links JS last -->
+    <script src="JS/script.js"></script>
 </body>
 </html>
